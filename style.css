@@ -1,0 +1,271 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-cabecalho{
+    width: 3%;
+    padding-left: 5vh;
+    padding-top: 3vh;
+}
+
+.opcoes-cabecalho{
+    display: inline;
+}
+
+.opcoes{
+    display: inline-block;
+    padding: 3vh;
+    font-weight: bold;
+}
+
+.opcoes-log{
+    display: inline-block;
+    padding-left: 70vh;
+    font-size: 20px;
+    color: #9c44dc;
+    font-weight: bold;
+}
+
+.imagem-principal{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.titulo-um{
+    position: absolute;
+    top: 43vh;
+    right: 100vh;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.sub-titulo{
+    position: absolute;
+    top: 65vh;
+    left: 30vh;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.caixa{
+    position: absolute;
+    margin-left: 70%;
+    top: 30vh;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    height: 50vh;
+}
+
+.titulo-caixa{
+    margin: 0px 0px 55px;
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    font-size: 1.25rem;
+    line-height: 1.22;
+    text-align: left;
+}
+
+
+.texto-caixa{
+    background-color: transparent;
+    border-width: 0px 0px 1px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color: rgb(17, 17, 17);
+    caret-color: currentcolor;
+    display: block;
+    margin: 0px;
+    padding: 8px 0px;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(17, 17, 17, 0.2);
+    --inputCurrentColor: #111111;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*.botao{
+    padding: 30px 60vh 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: lightgray;
+    color: gray;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+} */
+
+.botao{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 6.25rem;
+    color: rgb(255, 255, 255);
+    --rippleLayerColor: rgba(255,255,255,0.2);
+    height: 3rem;
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    cursor: pointer;
+    outline: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: middle;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    transform: translate3d(0px, 0px, 0px);
+    margin: 0px;
+    color: gray;
+    letter-spacing: -0.01em;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.continuar{
+    top: 20px;
+    position: relative;
+    pointer-events: none;
+    margin: 0px;
+    color: gray;
+    letter-spacing: -0.01em;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.imagem-cartao{
+    width: 30%;
+    margin-left: 115vh;
+    position: relative;
+    margin-top: 5vh;
+}
+
+.titulo-cartao{
+    position: absolute;
+    font-size: 45px;
+    margin-top: 10vh;
+    margin-left: 13vh;
+    font-weight: bold;
+    color: #9c44dc;
+    padding: 10px;
+    text-align: left;
+}
+
+.texto-cartao{
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 15vh;
+    margin-top: 20vh;
+    font-weight: bold;
+}
+
+.saibaMais{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15vh;
+    margin-top: 55vh;
+    color: #9c44dc;
+}
+
+
+section{
+    background-color: #e5e4e2;
+    margin-top: 70px;
+    height: 200vh;
+}
+
+.cartao-violeta{
+    width: 50%;
+    margin-left: 100vh;
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.titulo-cartao-violeta{
+    position: absolute;
+    font-size: 45px;
+    margin-left: 17vh;
+    margin-top: 25vh;
+    font-weight: bold;
+    color: #9c44dc;
+    padding: 10px;
+    text-align: left;
+}
+
+.texto-cartao-violeta{
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 18vh;
+    margin-top: 35vh;
+    font-weight: bold;
+}
+
+.saiba-mais-violeta{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 18vh;
+    margin-top: 55vh;
+    color: #9c44dc;
+}
+
+.celular-conta{
+    margin-left: 130vh;
+    position: absolute;
+    margin-top: 100vh;
+}
+
+.titulo-celular{
+    position: absolute;
+    font-size: 45px;
+    margin-left: 12vh;
+    margin-top: 120vh;
+    font-weight: bold;
+    color: #9c44dc;
+    padding: 10px;
+    text-align: left;   
+}
+
+.texto-celular{
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 13vh;
+    margin-top: 130vh;
+    font-weight: bold;
+}
+
+.saiba-mais-celular{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 13vh;
+    margin-top: 157vh;
+    color: #9c44dc;
+}
